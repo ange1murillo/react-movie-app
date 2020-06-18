@@ -51,7 +51,7 @@ function GridCards(props) {
 		return (
 			<Col key={key} xs={6} sm={4} md={3} lg={3}>
 				<div style={{ position: 'relative', paddingBottom: '20px' }}>
-					<a href={`/movie/${movieId}`}>
+					<a href={`/${movieId}`}>
 						<img className="landing-grid-image" alt={movieName} src={image} />
 					</a>
 				</div>
